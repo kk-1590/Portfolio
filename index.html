@@ -111,7 +111,25 @@
         </table>
       </div>
 
-      <h2>Reach me at</h2>
+      <div id="contact-me">
+        <form name="contact" id='contact' method="POST" data-netlify="true">
+            <div>
+              <div>
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName"/>
+              </div>
+              <div>
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" />
+              </div>
+              <div>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="'message" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
